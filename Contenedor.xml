@@ -1,0 +1,255 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<java version="1.8.0_102" class="java.beans.XMLDecoder">
+ <object class="Contenedores.Contenedor" id="Contenedor0">
+  <void property="listaCarnes">
+   <void method="add">
+    <object class="Ingredientes.Carnes">
+     <void property="name">
+      <string>pollo</string>
+     </void>
+    </object>
+   </void>
+   <void method="add">
+    <object class="Ingredientes.Carnes" id="Carnes0">
+     <void property="name">
+      <string>pescado</string>
+     </void>
+    </object>
+   </void>
+   <void method="add">
+    <object class="Ingredientes.Carnes">
+     <void property="name">
+      <string>cerdo</string>
+     </void>
+    </object>
+   </void>
+   <void method="add">
+    <object class="Ingredientes.Carnes">
+     <void property="name">
+      <string>atun</string>
+     </void>
+    </object>
+   </void>
+  </void>
+  <void property="listaCheffs">
+   <void method="add">
+    <object class="Usuario.Cheff">
+     <void property="contrasena">
+      <string>123456</string>
+     </void>
+     <void property="usuario">
+      <string>Pedro</string>
+     </void>
+    </object>
+   </void>
+  </void>
+  <void property="listaClientes">
+   <void method="add">
+    <object class="Usuario.Cliente" id="Cliente0">
+     <void class="Usuario.Cliente" method="getField">
+      <string>mesa</string>
+      <void method="set">
+       <object idref="Cliente0"/>
+       <int>3</int>
+      </void>
+     </void>
+     <void property="categoria">
+      <int>0</int>
+     </void>
+     <void property="contrasena">
+      <string>12345678</string>
+     </void>
+     <void property="nombre">
+      <string>Ricardo</string>
+     </void>
+    </object>
+   </void>
+  </void>
+  <void property="listaFrutas">
+   <void method="add">
+    <object class="Ingredientes.Frutas">
+     <void property="name">
+      <string>guanabana</string>
+     </void>
+    </object>
+   </void>
+   <void method="add">
+    <object class="Ingredientes.Frutas">
+     <void property="name">
+      <string>banano</string>
+     </void>
+    </object>
+   </void>
+   <void method="add">
+    <object class="Ingredientes.Frutas" id="Frutas0">
+     <void property="name">
+      <string>manzana</string>
+     </void>
+    </object>
+   </void>
+   <void method="add">
+    <object class="Ingredientes.Frutas">
+     <void property="name">
+      <string>melon</string>
+     </void>
+    </object>
+   </void>
+  </void>
+  <void property="listaGranos">
+   <void method="add">
+    <object class="Ingredientes.Granos">
+     <void property="name">
+      <string>arroz</string>
+     </void>
+    </object>
+   </void>
+   <void method="add">
+    <object class="Ingredientes.Granos">
+     <void property="name">
+      <string>frijol</string>
+     </void>
+    </object>
+   </void>
+   <void method="add">
+    <object class="Ingredientes.Granos">
+     <void property="name">
+      <string>garbanzos</string>
+     </void>
+    </object>
+   </void>
+   <void method="add">
+    <object class="Ingredientes.Granos">
+     <void property="name">
+      <string>ajonjoli</string>
+     </void>
+    </object>
+   </void>
+  </void>
+  <void property="listaLacteos">
+   <void method="add">
+    <object class="Ingredientes.Lacteos">
+     <void property="name">
+      <string>leche</string>
+     </void>
+    </object>
+   </void>
+   <void method="add">
+    <object class="Ingredientes.Lacteos" id="Lacteos0">
+     <void property="name">
+      <string>yogurt</string>
+     </void>
+    </object>
+   </void>
+   <void method="add">
+    <object class="Ingredientes.Lacteos">
+     <void property="name">
+      <string>queso</string>
+     </void>
+    </object>
+   </void>
+   <void method="add">
+    <object class="Ingredientes.Lacteos">
+     <void property="name">
+      <string>natilla</string>
+     </void>
+    </object>
+   </void>
+  </void>
+  <void property="listaPlatillos">
+   <void method="add">
+    <object class="Menu.Platillo" id="Platillo0">
+     <void property="cantidadDeIngredientes">
+      <int>8</int>
+     </void>
+     <void property="datoExtra">
+      <string>prueba</string>
+     </void>
+     <void property="informacionNutricional">
+      <string>muy nutritivo</string>
+     </void>
+     <void property="listaIngredientes">
+      <void method="add">
+       <object class="Ingredientes.IngredienteSolo">
+        <void property="carne">
+         <object idref="Carnes0"/>
+        </void>
+       </object>
+      </void>
+      <void method="add">
+       <object class="Ingredientes.IngredienteSolo">
+        <void property="fruta">
+         <object idref="Frutas0"/>
+        </void>
+       </object>
+      </void>
+      <void method="add">
+       <object class="Ingredientes.IngredienteSolo">
+        <void property="lacteo">
+         <object idref="Lacteos0"/>
+        </void>
+       </object>
+      </void>
+     </void>
+     <void property="precio">
+      <int>5000</int>
+     </void>
+     <void id="Receta0" property="receta">
+      <void property="listaPasos">
+       <void method="add">
+        <object class="Menu.Pasos">
+         <void property="paso">
+          <string>iniciar</string>
+         </void>
+        </object>
+       </void>
+       <void method="add">
+        <object class="Menu.Pasos">
+         <void property="paso">
+          <string>medio</string>
+         </void>
+        </object>
+       </void>
+       <void method="add">
+        <object class="Menu.Pasos">
+         <void property="paso">
+          <string>final</string>
+         </void>
+        </object>
+       </void>
+      </void>
+     </void>
+    </object>
+   </void>
+  </void>
+  <void property="listaVegetales">
+   <void method="add">
+    <object class="Ingredientes.Vegetales">
+     <void property="name">
+      <string>pepino</string>
+     </void>
+    </object>
+   </void>
+   <void method="add">
+    <object class="Ingredientes.Vegetales">
+     <void property="name">
+      <string>lechuga</string>
+     </void>
+    </object>
+   </void>
+   <void method="add">
+    <object class="Ingredientes.Vegetales">
+     <void property="name">
+      <string>zanaoria</string>
+     </void>
+    </object>
+   </void>
+   <void method="add">
+    <object class="Ingredientes.Vegetales">
+     <void property="name">
+      <string>apio</string>
+     </void>
+    </object>
+   </void>
+  </void>
+ </object>
+</java>
